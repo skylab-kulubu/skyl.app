@@ -1,0 +1,32 @@
+.card-wrapper {
+  background: #070332;
+  border: 2px solid #070332;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.card-wrapper .image {
+  width: 100%;
+  height: 150px;
+  background: white;
+  text-align: center;
+}
+
+.card-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-wrapper .card-body {
+  width: 100%;
+  background: #070332;
+  padding: 1rem 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper .card-body p {
+  color: #ffffff;
+}

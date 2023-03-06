@@ -1,0 +1,40 @@
+.dropdown {
+  align-self: flex-start;
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.dropdown span {
+  cursor: pointer;
+}
+
+.dropdown span > * {
+  vertical-align: middle;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 1rem 2rem;
+  border: 2px solid #070332;
+  border-radius: 4px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content li {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.dropdown-content li:hover {
+  color: #3f3a6f;
+}

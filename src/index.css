@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: #070332;
+
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+html {
+  margin: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+}
