@@ -30,10 +30,10 @@ function App() {
     <div className="main-container">
       <div className="social-platforms">
         <a href="https://www.linkedin.com/company/ytuskylab/">
-          <img src={process.env.PUBLIC_URL + "/images/linkedin.png"} />
+          <img src={process.env.PUBLIC_URL + "/images/linkedin.svg"} />
         </a>
         <a href="https://www.instagram.com/skylabkulubu/">
-          <img src={process.env.PUBLIC_URL + "/images/instagram.png"} />
+          <img src={process.env.PUBLIC_URL + "/images/instagram.svg"} />
         </a>
       </div>
       <a href="https://yildizskylab.com/">
@@ -42,7 +42,7 @@ function App() {
       <h2>APPS</h2>
       <a href="https://yildizskylab.com/">
         <img
-          src={process.env.PUBLIC_URL + "/images/logo.png"}
+          src={process.env.PUBLIC_URL + "/images/logo.svg"}
           className="logo"
         />
       </a>

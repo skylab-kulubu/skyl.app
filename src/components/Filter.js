@@ -13,7 +13,7 @@ const Filter = (props) => {
         }}
       >
         {selectedCategory}{" "}
-        <img src={process.env.PUBLIC_URL + "/images/arrow-down.png"} />
+        <img src={process.env.PUBLIC_URL + "/images/arrow-down.svg"} />
       </span>
       <div className="dropdown-content" ref={dropdown}>
         <ul>
