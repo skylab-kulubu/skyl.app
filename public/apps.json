@@ -4,5 +4,11 @@
     "url": "https://yildizskylab.com/",
     "image": "ytu.jpg",
     "category": "YTU"
+  },
+  {
+    "name": "Skytree",
+    "url": "https://skytree.vercel.app/",
+    "image": "skylab.jpg",
+    "category": "Skylab"
   }
 ]

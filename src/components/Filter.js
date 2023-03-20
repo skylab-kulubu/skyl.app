@@ -12,8 +12,7 @@ const Filter = (props) => {
             dropdown.current.style.display === "block" ? "" : "block";
         }}
       >
-        {selectedCategory}{" "}
-        <img src={process.env.PUBLIC_URL + "/images/arrow-down.svg"} />
+        {selectedCategory} <img src="/images/arrow-down.svg" />
       </span>
       <div className="dropdown-content" ref={dropdown}>
         <ul>
